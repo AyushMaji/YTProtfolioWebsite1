@@ -1,0 +1,221 @@
+body {
+	text-align: right;
+}
+
+blockquote span img {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.page {
+    left: 0;
+}
+
+/* About */
+.pt-about .info-icon i {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.pt-about .inter-icon i {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.pt-about .inter-icon i:after {
+    left: unset;
+    right: 40px;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+
+.pt-about .testimonial-item {
+   direction: rtl;
+}
+
+.pt-about .testimonial-item img {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.pt-about .testimonial-item .rating {
+    left: 25px;
+    right: unset;
+}
+
+/* Resume */
+.pt-resume .experience .item {
+    position: relative;
+    padding-top: 15px;
+    padding-left: 0;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+.pt-resume .experience .item:before {
+    left: unset;
+    right: 0;
+}
+
+.pt-resume .experience .main h4:before {
+    left: unset;
+    right: -46px;
+}
+
+.pt-resume .experience .item:after {
+    left: unset;
+    right: 6px;
+}
+
+.pt-resume .experience .main p i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.pt-resume .skill-item .progress .progress-value {
+    left: 0;
+    right: unset;
+}
+
+.pt-resume .work-process .rtl {
+    text-align: right;
+}
+
+.pt-resume .work-process .ltr {
+    text-align: left;
+}
+
+.pt-resume .work-process .wp-circle {
+    padding: 100px 0;
+}
+
+/* Portfolio */
+.pt-portfolio .portfolio-items .item figure figcaption p {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption p:before {
+    left: unset;
+    right: 0;
+}
+
+/* Blog list */
+.offset-md-1 {
+    margin-right: 8.333333%;
+}
+
+.blog-list .blog-head h2,
+.blog-list .blog-head .blog-breadcrumb {
+    width: 100% !important;
+}
+
+.blog-list .blog-head .blog-breadcrumb li:after {
+    content: "\f104";
+    left: -6px;
+    right: unset;
+}
+
+.blog-list .blog-head .blog-breadcrumb li {
+    margin-left: 10px;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.blog-list .side-left .search .input-group .input-group-text {
+    padding: 5px 15px 5px 0;
+}
+
+.blog-list .side-left h4:after {
+    left: unset;
+    right: 0;
+}
+
+.blog-list .side-left .categories ul li,
+.blog-list .side-left .archives ul li {
+    padding: 15px 20px 15px 10px;
+}
+
+.blog-list .side-left .categories ul li:before,
+.blog-list .side-left .archives ul li:before {
+    left: unset;
+    right: 0;
+}
+
+.blog-list .side-left .news p i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.blog-list .side-left .news img {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.blog-list .blog-post .content .detalis .meta li i {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+/* Blog Page */
+.blog-page .blog-nav a:not(:last-child) {
+    border-right: none;
+    border-left: 1px solid rgba(255,255,255,0.15);
+}
+
+.blog-page .blog-heading i {
+    margin: 0 10px 0 5px;
+}
+
+.blog-page .blog-heading span:after {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.blog-page .blog-comments ul .author-img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.blog-page .blog-comments ul li .comment-text a {
+    float: left;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.blog-page .blog-comments ul li .comment-text a i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.blog-page .blog-comments ul li ul {
+    margin-left: 0;
+	margin-right: 60px;
+}
+
+/* Btn */
+.btn-st:before {
+    left: unset;
+    right: -15%;
+}
+
+.btn-st:hover:before {
+    -webkit-transform: translateX(-120%) scaleX(3) scaleY(0.8);
+            transform: translateX(-120%) scaleX(3) scaleY(0.8);
+}
+
+.btn-st:after {
+    left: unset;
+    right: -5%;
+}
+
+.btn-st:hover:after {
+    -webkit-transform: translateX(55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+            transform: translateX(55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+}
